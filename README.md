@@ -1,0 +1,1 @@
+This repository demonstrates a common C++ error: accessing elements outside the valid range of a `std::vector`. The `bug.cpp` file contains code that attempts to access an element beyond the vector's bounds, leading to undefined behavior.  The `bugSolution.cpp` file provides a corrected version using `at()` for bounds checking or ensuring the vector is resized properly.
